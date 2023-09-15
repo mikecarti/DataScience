@@ -1,1 +1,0 @@
-# sberbank-test-colab

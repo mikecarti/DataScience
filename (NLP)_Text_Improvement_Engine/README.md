@@ -41,7 +41,7 @@ of research, i decided to stop on a solution with benepar library.
 ### Similarity measure
 ```math
 \begin{align}
-S(a,b) = text{cosSim}(a, b) * log(\text{wordCount(a)})^f / log(\text{MaxDocWordCount})
+S(a,b) = \text{cosSim}(a, b) * log(\text{wordCount(a)})^f / log(\text{MaxDocWordCount})
 \end{align}
 ```
 

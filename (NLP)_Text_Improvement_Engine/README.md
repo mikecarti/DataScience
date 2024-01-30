@@ -41,12 +41,12 @@ of research, i decided to stop on a solution with benepar library.
 ### Similarity measure
 ```math
 \begin{align}
-S(a,b) = \text{cosSim}(a, b) * log(\text{wordCount(a)})^f / log(\text{MaxDocWordCount})
+S(a,b) = \text{cosSim}(a, b) * log(\text{wordCount(a)})^\alpha / log(\text{MaxDocWordCount})
 \end{align}
 ```
 
 For similarity measure I took simple cosine_similarity multiplied and normalized 
-with natural logarithm of word count to fight short phrase scoring problem. f is a hyper-parameter,
+with natural logarithm of word count to fight short phrase scoring problem. $\alpha$ is a hyper-parameter,
 describing how much score is supposedly affected by word count.
 
 ### Stack

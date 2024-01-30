@@ -31,7 +31,7 @@ class LLMAPI:
     def __init__(self):
         from openai import OpenAI
         import os
-        os.environ["OPENAI_API_KEY"] = "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"
+        os.environ["OPENAI_API_KEY"] = ""
 
         self.client = OpenAI()
 

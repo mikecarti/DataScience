@@ -78,7 +78,7 @@ how to change them as well.
 Specific preloaded phrases are located in the file standard_phrases.txt. Sample text for
 analysis is located in text.txt. All scores were obtained with e5_base embeddings.
 
-##### GPT-4 (Any locally deployed LLM would produce similar results)
+##### GPT-4 (Any locally deployed big enough LLM would produce similar results)
 ```commandline
 Phrase: came to the consensus that we need to do better in terms of performance
 Candidates:

@@ -48,7 +48,7 @@ S(a,b) = \text{cosSim}(a, b) * \Big( \frac{log(\text{wordCount(a)})}{log(\text{M
 \end{align}
 ```
 
-For similarity measure I took simple cosine_similarity multiplied and normalized 
+For similarity measure I came up with that similarity function. I took simple cosine_similarity multiplied and normalized 
 with natural logarithm of word count to fight short phrase scoring problem. $\alpha$ is a hyper-parameter,
 describing how much score is supposedly affected by word count.
 

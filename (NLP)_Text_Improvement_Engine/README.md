@@ -56,7 +56,7 @@ describing how much score is supposedly affected by word count.
 I decided to use FAISS vector database, as it is convinient
 to store vector representations there. For task of sentence splitting (i.e split a sentence
 by phrases), I researched a lot of options, but as this field is 
-not very popular (sentence segmentation) I decided to go with average, good-enough for 4 hours task tool library - benepar.
+not very popular (sentence segmentation) I decided to go with a good-enough library - benepar.
 Model loading and inference is done through nltk and huggingface.
 
 ### Text Improvement

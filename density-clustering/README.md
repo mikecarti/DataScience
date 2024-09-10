@@ -20,7 +20,7 @@ db.plot_clusters("xlabel", "ylabel", col1=0, col2=1)
 ```
 
 ### OPTICS
-```
+```python
 db = OpticsDataBase()
 db.fit([[1, 2], [0, 0], [3, 3], [5, 8], [9,9]])
 optics(db, eps_radius=3, min_pts_density=5)
